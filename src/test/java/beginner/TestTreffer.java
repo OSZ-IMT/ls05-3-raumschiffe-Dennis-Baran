@@ -1,10 +1,15 @@
+package beginner;
+
 import Raumschiffe.Raumschiff;
+import base.TestBase;
 import org.junit.jupiter.api.Test;
 
-public class TestTreffer extends TestBase{
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class TestTreffer extends TestBase {
 
     @Test
-    void trefferNot(){
+    void trefferShield(){
 
         //prepare
         Raumschiff r = getRaumschiff();
@@ -15,8 +20,30 @@ public class TestTreffer extends TestBase{
 
         if (isBeginner())
             checkBroadcast("TestTestTest wurde getroffen!");
-        else
+        else {
             checkNotBroadcast("Alle Lebenserhaltssysteme abgeschaltet.");
+            assertEquals(50,r2.getSchildeInProzent());
+        }
+    }
+
+    @Test
+    void trefferSystem(){
+
+        //prepare
+        Raumschiff r = getRaumschiff();
+        Raumschiff r2 = getRaumschiff();
+        r2.setSchiffsname("TestTestTest");
+        r2.setSchildeInProzent(40);
+
+        r.phaserkanoneSchiessen(r2);
+
+        if (isBeginner())
+            checkBroadcast("TestTestTest wurde getroffen!");
+        else {
+            checkNotBroadcast("Alle Lebenserhaltssysteme abgeschaltet.");
+            assertEquals(50,r2.getHuelleInProzent());
+            assertEquals(50,r2.getEnergieversorgungInProzent());
+        }
     }
 
     @Test

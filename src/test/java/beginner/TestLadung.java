@@ -1,8 +1,11 @@
+package beginner;
+
 import Raumschiffe.Ladung;
 import Raumschiffe.Raumschiff;
+import base.TestBase;
 import org.junit.jupiter.api.Test;
 
-public class TestLadung extends TestBase{
+public class TestLadung extends TestBase {
 
     @Test
     void ladungsverzeichnisAusgeben(){
@@ -19,6 +22,16 @@ public class TestLadung extends TestBase{
             checkConsole("lad"+i);
             checkConsole(String.valueOf(100+i));
         }
+
+    }
+
+    @Test
+    void addLadung(){
+
+        int max = (int) (5+Math.random()*20);
+        //prepare
+        Raumschiff r = getRaumschiff();
+        addLadung(r, max);
 
     }
 

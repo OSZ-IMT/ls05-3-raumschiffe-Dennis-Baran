@@ -1,7 +1,10 @@
+package beginner;
+
 import Raumschiffe.Raumschiff;
+import base.TestBase;
 import org.junit.jupiter.api.Test;
 
-public class TestZustand extends TestBase{
+public class TestZustand extends TestBase {
 
     @Test
     void zustandRaumschiff(){

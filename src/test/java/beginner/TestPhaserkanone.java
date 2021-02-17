@@ -1,7 +1,12 @@
+package beginner;
+
 import Raumschiffe.Raumschiff;
+import base.TestBase;
 import org.junit.jupiter.api.Test;
 
-public class TestPhaserkanone extends TestBase{
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class TestPhaserkanone extends TestBase {
 
     @Test
     void phaserkanoneSchiessen(){
@@ -26,5 +31,6 @@ public class TestPhaserkanone extends TestBase{
         r.phaserkanoneSchiessen(r2);
 
         checkBroadcast("Phaserkanone abgeschossen");
+        assertEquals(50,r.getEnergieversorgungInProzent());
     }
 }

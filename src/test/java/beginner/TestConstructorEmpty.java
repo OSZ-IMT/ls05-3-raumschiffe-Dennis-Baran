@@ -1,21 +1,23 @@
+package beginner;
+
 import Raumschiffe.Ladung;
 import Raumschiffe.Raumschiff;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-public class TestConstructor extends TestBase{
+public class TestConstructorEmpty {
 
     @Test
-    void raumSchiff(){
-        Raumschiff r = getRaumschiff();
+    void raumSchiffEmpty(){
+        Raumschiff r = new Raumschiff();
 
         assertNotNull(r);
     }
 
     @Test
-    void ladung(){
-        Ladung l = new Ladung("ABCD",3);
+    void ladungEmpty(){
+        Ladung l = new Ladung();
 
         assertNotNull(l);
     }

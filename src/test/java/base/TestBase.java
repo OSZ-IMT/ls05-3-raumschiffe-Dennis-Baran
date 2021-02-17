@@ -1,3 +1,5 @@
+package base;
+
 import Raumschiffe.Raumschiff;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

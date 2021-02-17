@@ -1,7 +1,12 @@
+package beginner;
+
 import Raumschiffe.Raumschiff;
+import base.TestBase;
 import org.junit.jupiter.api.Test;
 
-public class TestPhotonentorpedo extends TestBase{
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class TestPhotonentorpedo extends TestBase {
 
     @Test
     void photonentorpedoSchiessenEmpty(){
@@ -26,5 +31,6 @@ public class TestPhotonentorpedo extends TestBase{
         r.photonentorpedoSchiessen(r2);
 
         checkBroadcast("Photonentorpedo abgeschossen");
+        assertEquals(1,r.getPhotonentorpedoAnzahl());
     }
 }

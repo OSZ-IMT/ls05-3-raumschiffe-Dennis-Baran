@@ -1,10 +1,13 @@
+package expert;
+
 import Raumschiffe.Ladung;
 import Raumschiffe.Raumschiff;
+import base.TestBase;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.fail;
 
-public class TestELadung extends TestBase{
+public class TestELadung extends TestBase {
 
     @Test
     void ladungsverzeichnisAufraeumenCanRemove(){

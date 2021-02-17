@@ -1,12 +1,17 @@
+package expert;
+
 import Raumschiffe.Ladung;
 import Raumschiffe.Raumschiff;
+import base.TestBase;
+import beginner.TestLadung;
 import org.junit.jupiter.api.Test;
 
-public class TestEPhotonentorpedo extends TestBase{
+public class TestEPhotonentorpedo extends TestBase {
 
     private Raumschiff getRaumschiff(int anzahlTorpedos){
         //prepare
         Raumschiff r = getRaumschiff();
+
         TestLadung.addLadung(r, (int) (Math.random()*20)); //dummy ladung
         r.addLadung(new Ladung("Photonentorpedos",anzahlTorpedos));
         TestLadung.addLadung(r, (int) (Math.random()*20)); //dummy ladung
