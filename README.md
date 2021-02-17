@@ -3,8 +3,9 @@ Das Programm "Raumschiffe" soll mithilfe des UML Klassendiagramms als Java-Quell
 
 # Arbeitsauftrag
 1. Schon erledigt :)
-2. Implementieren Sie das [OOD Klassendiagramm](https://moodle.oszimt.de/pluginfile.php/297229/assignfeedback_solutionsheet/solutionsheet/0/Aufgabe%204%20Beispielloeser_KlassendiagrammOOD_StarTrek.pdf?forcedownload=1) in Quellcode. [Hinweise zu den Methoden](https://moodle.oszimt.de/mod/page/view.php?id=186013)
-3. Schreiben Sie eine passende [Mainmethode](https://moodle.oszimt.de/mod/page/view.php?id=186026) dazu. Halten Sie sich an die Vorgaben des Objektdiagramms.
+2. Ein Codegerüst ist schon vorhanden. Fügen Sie die Klasse Ladung hinzu.
+3. Implementieren Sie das [OOD Klassendiagramm](https://moodle.oszimt.de/pluginfile.php/297229/assignfeedback_solutionsheet/solutionsheet/0/Aufgabe%204%20Beispielloeser_KlassendiagrammOOD_StarTrek.pdf?forcedownload=1) in Quellcode. [Hinweise zu den Methoden](https://moodle.oszimt.de/mod/page/view.php?id=186013)
+4. Schreiben Sie eine passende [Mainmethode](https://moodle.oszimt.de/mod/page/view.php?id=186026) dazu. Halten Sie sich an die Vorgaben des Objektdiagramms.
 
 > Damit alle Tests/Autograding klappt, halten Sie sich genau an das vorgebenene [Klassendiagramm](https://moodle.oszimt.de/pluginfile.php/297229/assignfeedback_solutionsheet/solutionsheet/0/Aufgabe%204%20Beispielloeser_KlassendiagrammOOD_StarTrek.pdf?forcedownload=1), inkl. Groß- & Kleinschreibung.
 
