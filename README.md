@@ -4,8 +4,9 @@ Das Programm "Raumschiffe" soll mithilfe des UML Klassendiagramms als Java-Quell
 # Arbeitsauftrag
 1. Schon erledigt :)
 2. Ein Codegerüst ist schon vorhanden. Fügen Sie die Klasse Ladung hinzu.
-3. Implementieren Sie das [OOD Klassendiagramm](https://moodle.oszimt.de/pluginfile.php/297229/assignfeedback_solutionsheet/solutionsheet/0/Aufgabe%204%20Beispielloeser_KlassendiagrammOOD_StarTrek.pdf?forcedownload=1) in Quellcode. [Hinweise zu den Methoden](https://moodle.oszimt.de/mod/page/view.php?id=186013)
-4. Schreiben Sie eine passende [Mainmethode](https://moodle.oszimt.de/mod/page/view.php?id=186026) dazu. Halten Sie sich an die Vorgaben des Objektdiagramms.
+3. [LS52-5-01](https://moodle.oszimt.de/mod/page/view.php?id=186013): Implementieren Sie das [OOD Klassendiagramm](https://moodle.oszimt.de/pluginfile.php/297229/assignfeedback_solutionsheet/solutionsheet/0/Aufgabe%204%20Beispielloeser_KlassendiagrammOOD_StarTrek.pdf?forcedownload=1) in Quellcode (Bis 100 Punkte). Beachten Sie die [Hinweise zu den Methoden](https://moodle.oszimt.de/mod/page/view.php?id=186013). Bewertung erfolgt via Autograding.
+4. [LS52-5-01](https://moodle.oszimt.de/mod/page/view.php?id=186026): Schreiben Sie eine passende [Mainmethode](https://moodle.oszimt.de/mod/page/view.php?id=186026) dazu. Halten Sie sich an die Vorgaben des Objektdiagramms. (Bis 20 Punkte)
+5. [LS52-6-01](https://moodle.oszimt.de/course/view.php?id=1905#section-5): Dokumentieren Sie Ihren Quellcode sinnvoll (25 Punkte) und generieren Sie die Dokumentation (5 Punkte)
 
 > Damit alle Tests/Autograding klappt, halten Sie sich genau an das vorgebenene [Klassendiagramm](https://moodle.oszimt.de/pluginfile.php/297229/assignfeedback_solutionsheet/solutionsheet/0/Aufgabe%204%20Beispielloeser_KlassendiagrammOOD_StarTrek.pdf?forcedownload=1), inkl. Groß- & Kleinschreibung.
 
