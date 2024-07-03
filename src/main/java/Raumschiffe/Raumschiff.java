@@ -1,32 +1,149 @@
-package Raumschiffe;
-
 import java.util.ArrayList;
 
 
-/**
- * Diese Klasse modelliert einen Raumschiff
- * @author Becker, Krebs
- * @version 01.05.2020
- */
 public class Raumschiff {
 
+	// Anfang Attribute
 
+	private int photonentorpedoAnzahl;
+	private int energieversorgungInProzent;
+	private int schildeInProzent;
+	private int huelleInProzent;
+	private int lebenserhaltungssystemeInProzent;
+	private int androidenAnzahl;
 
+	private String schiffsname;
+	private ArrayList<Ladung> ladungsverzeichnis = new ArrayList<Ladung>();
+	
 
-	/**
-	 * Wenn Sie Anfänger sind, lassen Sie die Methode einfach so stehen. Sie wird für das Autograding benötigt.
-	 * Wenn Sie Fortgeschrittener oder Experte sind, implementieren Sie die Methode entsprechend
-	 * @return null
-	 */
-	public static ArrayList<String> eintraegeLogbuchZurueckgeben(){
-		return null;
+	//Konstruktoren
+	
+	public Raumschiff() {
+
 	}
 
-	/**
-	 * Wenn Sie Anfänger oder Fortgeschrittener sind, lassen Sie die Methode einfach so stehen. Sie wird für das Autograding benötigt.
-	 * Wenn Sie Experte sind, implementieren Sie die Methode entsprechend
-	 * @param anzahlTorpedos, a
-	 */
-	public void photonentorpedosEinsetzen(int anzahlTorpedos){	}
-}
+	public Raumschiff(int photonentorpedoAnzahl, int energieversorgungInProzent, int schildeInProzent,
+			int huelleInProzent, int lebenserhaltungssystemeInProzent, int androidenAnzahl, String schiffsname) {
+		this.photonentorpedoAnzahl = photonentorpedoAnzahl;
+		this.energieversorgungInProzent = energieversorgungInProzent;
+		this.schildeInProzent = schildeInProzent;
+		this.huelleInProzent = huelleInProzent;
+		this.lebenserhaltungssystemeInProzent = lebenserhaltungssystemeInProzent;
+		this.androidenAnzahl = androidenAnzahl;
+		this.schiffsname = schiffsname;
+	}
 
+	
+	//Verwaltungsmethoden
+	public int getPhotonentorpedoAnzahl() {
+		return photonentorpedoAnzahl;
+	}
+
+	
+	public void setPhotonentorpedoAnzahl(int photonentorpedoAnzahlNeu) {
+		photonentorpedoAnzahl = photonentorpedoAnzahlNeu;
+	}
+
+	
+	public int getEnergieversorgungInProzent() {
+		return energieversorgungInProzent;
+	}
+
+	
+	public void setEnergieversorgungInProzent(int zustandEnergieversorgungInProzentNeu) {
+		energieversorgungInProzent = zustandEnergieversorgungInProzentNeu;
+	}
+
+	
+	public int getSchildeInProzent() {
+		return schildeInProzent;
+	}
+
+	
+	public void setSchildeInProzent(int zustandSchildeInProzentNeu) {
+		schildeInProzent = zustandSchildeInProzentNeu;
+	}
+
+
+	public int getHuelleInProzent() {
+		return huelleInProzent;
+	}
+
+
+	public void setHuelleInProzent(int zustandHuelleInProzentNeu) {
+		huelleInProzent = zustandHuelleInProzentNeu;
+	}
+
+
+	public int getLebenserhaltungssystemeInProzent() {
+		return lebenserhaltungssystemeInProzent;
+	}
+
+
+	public void setLebenserhaltungssystemeInProzent(int zustandLebenserhaltungssystemeInProzentNeu) {
+		lebenserhaltungssystemeInProzent = zustandLebenserhaltungssystemeInProzentNeu;
+	}
+
+
+	public String getSchiffsname() {
+		return schiffsname;
+	}
+
+
+	public void setSchiffsname(String schiffsnameNeu) {
+		schiffsname = schiffsnameNeu;
+	}
+
+
+	public int getAndroidenAnzahl() {
+		return androidenAnzahl;
+	}
+
+
+	public void setAndroidenAnzahl(int androidenAnzahl) {
+		this.androidenAnzahl = androidenAnzahl;
+
+	}
+
+	
+
+	/* Anfang Methoden */
+
+
+	public void addLadung(Ladung neueLadung) {
+		ladungsverzeichnis.add(neueLadung);
+	}
+
+
+	public void photonentorpedoSchiessen(Raumschiff r) {
+		
+	}
+
+	
+	public void phaserkanoneSchiessen(Raumschiff r) {
+		
+	}
+
+
+	public void nachrichtAnAlle(String message) {
+		
+	}
+
+
+	private void treffer(Raumschiff r) {
+		
+	}
+
+
+	public void zustandRaumschiff() {
+		
+	}
+
+
+	public void ladungsverzeichnisAusgeben() {
+
+	}
+
+	// Ende Methoden
+
+}
